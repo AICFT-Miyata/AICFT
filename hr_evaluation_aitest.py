@@ -32,8 +32,8 @@ def generate_simple_feedback(data):
 if __name__ == "__main__":
     # Colabでの絶対パスを指定 (Driveマウント前提)
     GDRIVE_PATH = '/content/drive/MyDrive/AICFT/人事評価支援ツール/HR_Evaluation_AI/'
-    INPUT_FILE = GDRIVE_PATH + 'form_input.json'
-    OUTPUT_FILE = GDRIVE_PATH + 'form_output.json'
+    INPUT_FILE = GDRIVE_PATH + 'input.json'
+    OUTPUT_FILE = GDRIVE_PATH + 'output.json'
 
     try:
         # 入力JSONの読み込み
